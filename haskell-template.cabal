@@ -1,0 +1,54 @@
+cabal-version: 2.4
+name: project-name
+version: 0.1.0.0
+----- Cabal Information Above -----
+
+
+------ Copyright & Licensing ------
+copyright: 2022 Neoternix
+--license: GPL2
+--license-file: LICENSE
+
+-------- Details & Sources --------
+description: description-here
+extra-source-files: CHANGELOG.md
+                    README.md
+synopsis: synopsis-here
+
+------ Developer's & Reports ------
+author: Neoternix
+--bug-reports: https://github.com/Neoternix/haskell-template
+--maintainer: foo@bar.ext
+
+------- Executable & Extras -------
+executable haskell-template
+   build-depends: base^>=4.15.1.0
+   default-language: Haskell2010
+   --ghc-options: compiler-options
+   --hs-source-dirs: src
+   main-is: main.hs
+   --other-extensions: exts-here
+   --other-modules: modules-here
+
+---------- GitHub Source ----------
+--source-repository head
+   -- location: https://github.com/Neoternix/haskell-template
+   -- type: git
+
+-------- Library & Modules --------
+--library
+  -- build-depends: base^>=4.15.1.0
+  -- default-language: Haskell2010
+  -- exposed-modules: modules-here
+  -- hs-source-dirs: src
+  -- other-modules: other-modules-here
+
+---------- Test & Extras ----------
+-- test-suite haskell-template-test
+  -- build-depends: base^>=4.15.1.0
+  -- default-language: Haskell2010
+  -- ghc-options: options
+  -- hs-source-dirs: test
+  -- main-is: test.hs
+  -- other-modules: paths
+  -- type: exitcode-stdio-1.0
